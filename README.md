@@ -15,6 +15,7 @@ download.py 下载离线图标
 目录: ./dist/js
 main.js 修改
 
+安装插件路径：Mac ~/Library/Application Support/Google/Chrome/Default/Extensions
 ```
 
 
@@ -30,6 +31,8 @@ main.js 修改
 
 2. ###### 打开标签页找到设置导入.itabdata备份文件、完成
 
-   ![ssh-key](./md/iTab2.png)
+    ![ssh-key](./md/i2.png) 
 
+   ![ssh-key](./md/iTab2.png)
+   
    
