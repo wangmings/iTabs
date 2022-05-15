@@ -1,0 +1,1 @@
+const e=(e,n,t,l=!1)=>{e&&n&&t&&(null==e||e.addEventListener(n,t,l))},n=(e,n,t,l=!1)=>{e&&n&&t&&(null==e||e.removeEventListener(n,t,l))},t=(t,l,o)=>{const s=function(...e){o&&o.apply(this,e),n(t,l,s)};e(t,l,s)},l=(e,n,{checkForDefaultPrevented:t=!0}={})=>l=>{const o=null==e?void 0:e(l);if(!1===t||!o)return null==n?void 0:n(l)};export{n as a,t as b,l as c,e as o};

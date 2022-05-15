@@ -1,0 +1,1 @@
+import{j as a}from"./main.858372aa.js";const s=(s={})=>a.get("/wallpaper/random",{params:s}),p=(s={})=>a.get("/wallhaven/search",{params:s}),r=(s={})=>a.get("/wallpaper/unsplash",{params:s}),e=(s={})=>a.get("/wallpaper/video/list",{params:s});export{r as a,e as b,s as r,p as w};

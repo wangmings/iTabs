@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'dsdigi';
+	src: url('./ds-digi-webfont.woff');
+}
+.dsdigi {
+	font-family: 'dsdigi' !important;
+}

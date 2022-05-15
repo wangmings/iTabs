@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon/icon_64.png",
+      "default_popup": "dist/popup.html",
+      "default_title": "iTab New Tab"
+   },
+   "chrome_url_overrides": {
+      "newtab": "dist/index.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "matches": [ "*://*.codelife.cc/*" ]
+   },
+   "icons": {
+      "128": "icon/icon_128.png",
+      "192": "icon/icon_192.png",
+      "512": "icon/icon_512.png",
+      "64": "icon/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnbMlN7MYzxnp7hiXtg4scl8/l4mEQXWE43FwML3T14Q6TNKR1JlbKHewynWEykuY3dx6KGvSmOGo/vcNwuEh5tpBcsuYykbJZLSgfil/Y4IAj7LklcnXM0DU3zuPWP7088mdgbyTQWM6x8QtqDm5ZNL9GQ6aMGc1Q2At3D+5eT3mtbFJgjsF0DJPux9i5PMfCfE7hnyAT5gYC6I2ZF5waEr4wuT4JElYslwXTBtjY4bcDp2wHdcwUsuY+UV49Ur25Dj9ChZ3MQpCUo+F3pyhwTdD7A/aK47Q3IQanFp1CKYvfNqyY8dXYQQiqZHSTZ+UjZBB64UDOUMcH/wYpW421wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "bookmarks", "chrome://favicon/", "background", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.29.5"
+}

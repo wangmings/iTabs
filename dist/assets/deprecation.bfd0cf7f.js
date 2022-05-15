@@ -1,0 +1,1 @@
+import{u as e}from"./index.c956e740.js";import{Q as t,cU as o,a9 as p}from"./el-button.0a4ba32a.js";function r(r,s){const a=p(),n=t((()=>o(a.props[s])?a.props[s]:a.props.teleported));return e({scope:r,from:s,replacement:"teleported",version:"2.1.0",ref:"https://element-plus.org/en-US/component/tooltip.html#attributes"},t((()=>o(a.props[s])))),{compatTeleported:n}}export{r as u};

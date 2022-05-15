@@ -1,0 +1,1 @@
+import{ce as a,dw as s,ci as e,c3 as i}from"./el-button.0a4ba32a.js";import{u as o}from"./main.858372aa.js";import{c}from"./cloneDeep.436aab3d.js";const n=a(),m=o();var r=a=>{let o=m.menuActiveId,r=n.value.find((a=>a.id==o)).children||[];a.id=s(),r.push(c(a)),e("navConfig"),i.success(`添加【${a.name}】成功`)};export{r as a};

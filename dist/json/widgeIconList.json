@@ -1,0 +1,113 @@
+[
+    {
+        "name": "头像生成器",
+        "component": "multiavatar",
+        "type": "component",
+        "description": "头像生成器，创建您独特的头像。"
+    },
+    {
+        "name": "小鸡词典",
+        "component": "jikipedia",
+        "type": "component",
+        "description": "小鸡词典专注于网络流行语的收录和解释，以最快的速度在全网捕捉当下的网络热词。以简单明了，清晰易懂的形式，向用户介绍网络流行语的含义、来历、传播过程和引申义。"
+    },
+    {
+        "name": "下一个假期",
+        "component": "xiayigejiaqi",
+        "type": "component",
+        "description": "假期余额、下一个假期、请假攻略"
+    },
+    {
+        "name": "数字大写转换",
+        "component": "uppercase",
+        "type": "component",
+        "description": "数字大写转换"
+    },
+    {
+        "name": "习惯养成",
+        "component": "habit",
+        "type": "component",
+        "description": "养成新习惯和提升自我",
+        "config": {
+            "title": "每天8杯水",
+            "target": 8,
+            "current": 0
+        }
+    },
+    {
+        "name": "倒数日",
+        "component": "daysMatter",
+        "type": "component",
+        "description": "倒数日是一个帮你记录生活中重要日子的小工具，例如:恋人生日还有多少天？还信用卡还有多少天？发工资还有多少天？宝宝出生已经多少天？距离世界末日还有多少天",
+        "config": {
+            "name": "节日倒计时",
+            "title": "除夕还有",
+            "target": "2022-01-31",
+            "repeat": "festival",
+            "bgColor": "#eee1d9",
+            "textColor": "#8e726f",
+            "family": "",
+            "icon": ""
+        }
+    },
+    {
+        "name": "股市",
+        "component": "stock",
+        "type": "component",
+        "description": "'股市'可让您轻松关注股票和股市的动态，在自定的列表中查看股票和每日行情，轻点任意代码来查看交互式走势图及关键数据"
+    },
+    {
+        "name": "i天气",
+        "component": "weather",
+        "type": "component",
+        "description": "准确预报全球近10000多个地区的一周天气预报，包括国内县级和县级以上全部城市"
+    },
+    {
+        "name": "热卖榜",
+        "component": "remai",
+        "type": "component",
+        "description": "提供各电商热榜聚合：淘宝、天猫、京东、拼多多、苏宁、唯品会、当当、什么值得买、北美省钱快报...追踪全网好物、让购物简单一点"
+    },
+    {
+        "name": "i日历",
+        "component": "calendar",
+        "type": "component",
+        "description": "i日历是一款日历日期展示工具,小伙伴们可以通过农历日历软件了解当天的月、日、节日等信息。还有一些实用的日期小工具，自然日计算，工作日计算，假期大全等功能"
+    },
+    {
+        "name": "待办事项",
+        "component": "todo",
+        "type": "component",
+        "description": "待办事项，让您更轻松的计划每一天"
+    },
+    {
+        "name": "备忘录",
+        "component": "notes",
+        "type": "component",
+        "description": "备忘录是一款便利的和易用的备忘录工具软件。能帮您把任务贴在标签页桌面上,一目了然"
+    },
+    {
+        "name": "热搜榜",
+        "component": "topsearch",
+        "type": "component",
+        "description": "热搜榜提供各站热榜聚合：微信、今日头条、百度、知乎、V2EX、微博、贴吧、豆瓣、天涯、虎扑、Github、抖音...追踪全网热点、简单高效阅读"
+    },
+    {
+        "name": "i壁纸",
+        "component": "wallpaper",
+        "type": "component",
+        "description": "汇集各个平台的免费壁纸，超过10万+壁纸供你选择与使用"
+    },
+    {
+        "name": "书签管理",
+        "component": "bookmarks",
+        "type": "component",
+        "description": "itab书签管理，更高效的管理您的书签，方便您的使用"
+    },
+    {
+        "name": "IP查询",
+        "component": "ip",
+        "type": "component",
+        "description": "汇集多个iP地址归属地查询"
+    }
+]
